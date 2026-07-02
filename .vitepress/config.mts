@@ -27,10 +27,11 @@ export default defineConfig({
     sidebar: {
       '/react/': [
         {
-          text: '📘 Ecosistema React',
+          text: 'ReactJS',
           items: [
             { text: 'Introducción', link: '/react/' },
-            //{ text: 'Estrategia de Bundling', link: '/react/bundlers' }
+            { text: 'Exports', link: '/react/export' },
+            { text: 'Hooks', link: '/react/hook' },
           ]
         }
       ],
